@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: consumers
+server:
+  port: 8080
+
+
+rocketmq:
+  name-server: 94.191.85.100:9876

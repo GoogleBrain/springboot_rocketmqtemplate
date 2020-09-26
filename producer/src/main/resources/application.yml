@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: producer
+server:
+  port: 7070
+
+rocketmq:
+  name-server: 94.191.85.100:9876
+  producer:
+    group: producers
